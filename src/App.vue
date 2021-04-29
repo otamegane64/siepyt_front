@@ -2,7 +2,7 @@
   <div id="app">
     <div id="nav" >
      <img v-bind:src="require('./assets/logo.png')" alt="">
-      <div id="nombres">   
+      <div id="nombre">   
         <h1>SIEPyT</h1>
         <h3>Sistema Intermediario entre profesores y tutores</h3>
       </div>

@@ -1,12 +1,7 @@
 <template>
   <div class="hello">
-    <div id="areaRegistro">
-    <h2>inicio sesión</h2>
-    <textarea placeholder="Nombre de usuario"></textarea>
-    <textarea placeholder="Contraseña"></textarea>
-    </div>
     <div id="Imagen">
-      <img alt="alumnos" src="../assets/alumnos.jpg">
+      <img alt="alumnos" src="../assets/alumnos.jpg"  >
     </div>
      
   </div>
@@ -37,17 +32,16 @@ li {
 a {
   color: #42b983;
 }
-#areaRegistro
-{
-background: #98C1D9;
-display: inline-block;
 
-}
 #Imagen
 {
   display: inline-block;
-  width: 100px;
-  height: 100px;
 }
-
+#Imagen img
+{
+  width:1000px;
+  height: 500px;
+  margin: 0px 0px 0px  20px;
+  
+}
 </style>
